@@ -65,7 +65,7 @@ public class TaskControllerTest {
 	}
 	
 	@Test
-	public void deveSalvarTarefaComSucesso() throws ValidationException {
+	public void deveSalvarTarefaSucesso() throws ValidationException {
 		Task task = new Task();
 		task.setTask("Descricao");
 		task.setDueDate(LocalDate.now());
